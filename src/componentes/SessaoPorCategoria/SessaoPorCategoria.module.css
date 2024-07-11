@@ -1,0 +1,49 @@
+.categoria {
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 38px;
+    padding-bottom: 93px;
+    display: flex;
+    flex-direction: column;
+}
+
+.categoria h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    border: transparent;
+    border-radius: 15px;
+    padding: 20px;
+    width: 432px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    overflow: auto;
+    scrollbar-color: #999 #333;
+    padding-top: 42px;
+}
+
+@media (max-width: 1023px) {
+    .categoria h3 {
+        margin-left: 20%;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .categoria h3 {
+        margin-left: 0;
+        width: auto;
+    }
+
+    .categoria {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
